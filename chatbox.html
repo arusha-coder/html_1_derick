@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="C:\Users\KOICS-01\Desktop\e3.png">
+    <title>Chat box</title>
+    <style>
+body{
+    height: 1000vh;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.content{
+    background-color: gainsboro;
+    margin: auto;
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}       
+       
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+
+.time-left {
+  float: left;
+  color: #999;
+}
+.box{
+    align-content: center;
+    width: 100px;
+}
+.emoji{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="C:\Users\KOICS-01\Downloads\man2.jpg" alt=" ">
+    <p>Hello Aiden. How are you today?</p>
+    <span class="time-right">11:00</span>
+  </div>
+  
+  <div class="container darker">
+    <img src="C:\Users\KOICS-01\Downloads\man1.jpg" alt=" " class="right">
+    <p>Hey! I'm fine. Thanks for asking!</p>
+    <span class="time-left">11:01</span>
+  </div>
+  
+  <div class="container">
+    <img src="C:\Users\KOICS-01\Downloads\man2.jpg" alt=" ">
+    <p>Great! So, what do you wanna do today?</p>
+    <span class="time-right">11:02</span>
+  </div>
+  
+  <div class="container darker">
+    <img src="C:\Users\KOICS-01\Downloads\man1.jpg" alt=" " class="right">
+    <p>Ummmm! i just wanna play soccer or learn more coding perhaps?</p>
+    <span class="time-left">11:05</span>
+  </div><br><br><br><br><br><br><br><br>
+  
+  <div class="box">
+  <img src="C:\Users\KOICS-01\Downloads\emoj1.png" class="emoji"> <input type="text" placeholder="write your message" class="sms" style="width: 500px; height: 20px;">
+</div>
+</body>
+</html>
+
